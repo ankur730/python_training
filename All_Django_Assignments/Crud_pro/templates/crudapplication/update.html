@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update</title>
+</head>
+<body>
+<h1>This is a Update page</h1>
+
+<form method="POST" action="/">
+    {% csrf_token %}
+    Employee Number: <input type="text" name="eno" value="{{ employee.eno }}"><br>
+    Employee Name: <input type="text" name="eno" value="{{ employee.ename }}"><br>
+    Employee Salary: <input type="text" name="eno" value="{{ employee.esal }}">
+    Employee Address: <input type="text" name="eno" value="{{ employee.eaddr }}">
+
+    <input type="submit" class="btn btn-primary" value="Update Record">
+
+</form>
+
+</body>
+</html>

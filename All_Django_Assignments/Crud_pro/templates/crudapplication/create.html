@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create</title>
+</head>
+<body>
+<h1>This is my Create Page</h1>
+<div class="select2-container--above">
+    <form method="POST">
+        {{ form.as_p }}
+        {% csrf_token %}
+
+
+        <input type="submit" class="btn btn-primary" value="Submit">
+
+
+    </form>
+
+
+</div>
+
+</body>
+</html>

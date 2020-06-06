@@ -1,0 +1,19 @@
+Please visit following URLS on local host:
+
+Local host - 127.0.0.1:8000
+
+URLS Applied
+--------------
+
+Home - 127.0.0.1:8000/
+
+Create - /create
+
+Retrieve - /retrieve
+
+Delete and Update will perform operation automatically.
+They are set in such a way that they return to home page.
+
+Please visit retrieve page to see the changes done.
+
+
